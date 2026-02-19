@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-greengrassv2`](https://www.npmjs.com/package/@aws-sdk/client-greengrassv2/v/3.43.0).
+[`@aws-sdk/client-greengrassv2`](https://www.npmjs.com/package/@aws-sdk/client-greengrassv2/v/3.45.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.43.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.45.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ZJBp3qnXLJKV5D/y+Hb+IUnWgvgjjv7ftyTN6tCGgvYz4dkuMLrtZ4of1DrJBE/9
+sha384-8zvdC4D+0icoppAJ1chIIGofkgQWIw5o/Iy/zm0L6dFbHeCwanI3eVjed/x5eifw
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-greengrassv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.43.0/index.min.mjs"
+            "@aws-sdk/client-greengrassv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.45.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.43.0/index.min.mjs": "sha384-ZJBp3qnXLJKV5D/y+Hb+IUnWgvgjjv7ftyTN6tCGgvYz4dkuMLrtZ4of1DrJBE/9"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.45.0/index.min.mjs": "sha384-8zvdC4D+0icoppAJ1chIIGofkgQWIw5o/Iy/zm0L6dFbHeCwanI3eVjed/x5eifw"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-greengrassv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.43.0/index.min.mjs"
+                        "@aws-sdk/client-greengrassv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.45.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.43.0/index.min.mjs": "sha384-ZJBp3qnXLJKV5D/y+Hb+IUnWgvgjjv7ftyTN6tCGgvYz4dkuMLrtZ4of1DrJBE/9"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-greengrassv2@3.45.0/index.min.mjs": "sha384-8zvdC4D+0icoppAJ1chIIGofkgQWIw5o/Iy/zm0L6dFbHeCwanI3eVjed/x5eifw"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.43.0`)
+* Always pin to a specific version (`@3.45.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-greengrassv2/blob/refs/tags/3.43.0/LICENSE
+https://github.com/cloud-sdk-builds/client-greengrassv2/blob/refs/tags/3.45.0/LICENSE
 ```
 
 ---
